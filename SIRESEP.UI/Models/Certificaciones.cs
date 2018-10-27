@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+
+namespace SIRESEP.UI.Models
+{
+    public class Certificaciones
+    {
+        public int idCertificacion { get; set; }
+        [Required(AllowEmptyStrings = false, ErrorMessage = "el nombre es requerido")]
+        public string nombre { get; set; }
+        [Display(Name = "Año")]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "el ano es requerido")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}", ApplyFormatInEditMode = true)]
+        public DateTime ano { get; set; }
+    }
+}

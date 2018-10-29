@@ -26,6 +26,9 @@ namespace SIRESEP.UI
 
                 cfg.CreateMap<Models.InfoGradoEstudio, DATOS.InfoGradoEstudio>();
                 cfg.CreateMap<DATOS.InfoGradoEstudio, Models.InfoGradoEstudio>();
+
+                cfg.CreateMap<Models.InfoHabilidad, DATOS.InfoHabilidad>();
+                cfg.CreateMap<DATOS.InfoHabilidad, Models.InfoHabilidad>();
             });
         }
     }

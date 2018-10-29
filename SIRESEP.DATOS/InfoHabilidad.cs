@@ -7,7 +7,7 @@ using ServiceStack.DataAnnotations;
 
 namespace SIRESEP.DATOS
 {
-    public class InfoHabilidades
+    public class InfoHabilidad
     {
         [AutoIncrement]
         public int idHabilidad { get; set; }

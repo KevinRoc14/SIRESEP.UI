@@ -48,9 +48,9 @@ namespace SIRESEP.UI.Controllers
             return View(carreraBuscar);
         }
         [HttpPost]
-        public ActionResult Edit(Models.Carrera carrera)
+        public ActionResult Edit(Models.Carrera carrera_)
         {
-            var carreraEditar = Mapper.Map<DATOS.Carrera>(carrera);
+            var carreraEditar = Mapper.Map<DATOS.Carrera>(carrera_);
             carr.ActualizarCarrera(carreraEditar);
             return RedirectToAction("Index");
         }

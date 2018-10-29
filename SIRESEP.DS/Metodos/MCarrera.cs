@@ -22,6 +22,7 @@ namespace SIRESEP.DS.Metodos
 
         public void ActualizarCarrera(Carrera carrera)
         {
+            //error posible
             _db.Update(carrera);
         }
 

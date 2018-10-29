@@ -48,7 +48,7 @@
     <Compile Include="Certificaciones.cs" />
     <Compile Include="InfoGenero.cs" />
     <Compile Include="InfoGradoEstudio.cs" />
-    <Compile Include="InfoHabilidades.cs" />
+    <Compile Include="InfoHabilidad.cs" />
     <Compile Include="InfoInstitucion.cs" />
     <Compile Include="InfoLaboral.cs" />
     <Compile Include="InfoNacionalidad.cs" />

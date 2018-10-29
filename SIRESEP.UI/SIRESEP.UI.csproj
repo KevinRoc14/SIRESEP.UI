@@ -156,6 +156,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InfoGeneroController.cs" />
     <Compile Include="Controllers\InfoGradoEstudioController.cs" />
+    <Compile Include="Controllers\InfoHabilidadesController.cs" />
     <Compile Include="Controllers\InfoPuestoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -164,6 +165,7 @@
     <Compile Include="Models\Certificaciones.cs" />
     <Compile Include="Models\InfoGenero.cs" />
     <Compile Include="Models\InfoGradoEstudio.cs" />
+    <Compile Include="Models\InfoHabilidad.cs" />
     <Compile Include="Models\InfoPuesto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -231,6 +233,11 @@
     <Content Include="Views\InfoGradoEstudio\Details.cshtml" />
     <Content Include="Views\InfoGradoEstudio\Delete.cshtml" />
     <Content Include="Views\Certificaciones\Edit.cshtml" />
+    <Content Include="Views\InfoHabilidades\Index.cshtml" />
+    <Content Include="Views\InfoHabilidades\Create.cshtml" />
+    <Content Include="Views\InfoHabilidades\Edit.cshtml" />
+    <Content Include="Views\InfoHabilidades\Details.cshtml" />
+    <Content Include="Views\InfoHabilidades\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

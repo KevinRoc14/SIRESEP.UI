@@ -10,6 +10,7 @@ using SIRESEP.UI.Models;
 using SIRESEP.BS.Interfaces;
 using SIRESEP.BS.Metodos;
 using AutoMapper;
+using Moq;
 
 namespace SIRESEP.TEST.Controllers
 {
@@ -19,17 +20,8 @@ namespace SIRESEP.TEST.Controllers
         [TestMethod]
         public void IndexViewResultNoEsNulo()
         {
-            //arrange
-           // CarreraController controller = new CarreraController();
-            //ICarrera carr;
-            //carr = new MCarrera();
-            //var lista = carr.ListarCarrera();
-            // var carreras = Mapper.Map<List<UI.Models.Carrera>>(lista);
-            //act
+            
 
-           // ViewResult result = controller.Index() as ViewResult;
-            //assert
-           // Assert.IsNotNull(result);
         }
         [TestMethod]
         public void CarreraDetalles()

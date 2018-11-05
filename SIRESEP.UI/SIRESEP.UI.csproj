@@ -153,19 +153,31 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CarreraController.cs" />
     <Compile Include="Controllers\CertificacionesController.cs" />
+    <Compile Include="Controllers\EstadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InfoGeneroController.cs" />
     <Compile Include="Controllers\InfoGradoEstudioController.cs" />
     <Compile Include="Controllers\InfoHabilidadesController.cs" />
+    <Compile Include="Controllers\InfoIdiomaController.cs" />
+    <Compile Include="Controllers\InfoInstitucionController.cs" />
+    <Compile Include="Controllers\InfoLaboralController.cs" />
+    <Compile Include="Controllers\InfoLicenciaConducirController.cs" />
+    <Compile Include="Controllers\InfoNacionalidadController.cs" />
     <Compile Include="Controllers\InfoPuestoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Carrera.cs" />
     <Compile Include="Models\Certificaciones.cs" />
+    <Compile Include="Models\Estado.cs" />
     <Compile Include="Models\InfoGenero.cs" />
     <Compile Include="Models\InfoGradoEstudio.cs" />
     <Compile Include="Models\InfoHabilidad.cs" />
+    <Compile Include="Models\InfoIdioma.cs" />
+    <Compile Include="Models\InfoInstitucion.cs" />
+    <Compile Include="Models\InfoLaboral.cs" />
+    <Compile Include="Models\InfoLicenciaConducir.cs" />
+    <Compile Include="Models\InfoNacionalidad.cs" />
     <Compile Include="Models\InfoPuesto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -238,6 +250,30 @@
     <Content Include="Views\InfoHabilidades\Edit.cshtml" />
     <Content Include="Views\InfoHabilidades\Details.cshtml" />
     <Content Include="Views\InfoHabilidades\Delete.cshtml" />
+    <Content Include="Views\Estado\Index.cshtml" />
+    <Content Include="Views\Estado\Create.cshtml" />
+    <Content Include="Views\Estado\Edit.cshtml" />
+    <Content Include="Views\Estado\Details.cshtml" />
+    <Content Include="Views\InfoIdioma\Index.cshtml" />
+    <Content Include="Views\InfoIdioma\Create.cshtml" />
+    <Content Include="Views\InfoIdioma\Edit.cshtml" />
+    <Content Include="Views\InfoIdioma\Details.cshtml" />
+    <Content Include="Views\InfoInstitucion\Index.cshtml" />
+    <Content Include="Views\InfoInstitucion\Create.cshtml" />
+    <Content Include="Views\InfoInstitucion\Details.cshtml" />
+    <Content Include="Views\InfoInstitucion\Edit.cshtml" />
+    <Content Include="Views\InfoLaboral\Index.cshtml" />
+    <Content Include="Views\InfoLaboral\Create.cshtml" />
+    <Content Include="Views\InfoLaboral\Details.cshtml" />
+    <Content Include="Views\InfoLaboral\Edit.cshtml" />
+    <Content Include="Views\InfoLicenciaConducir\Index.cshtml" />
+    <Content Include="Views\InfoLicenciaConducir\Create.cshtml" />
+    <Content Include="Views\InfoLicenciaConducir\Details.cshtml" />
+    <Content Include="Views\InfoLicenciaConducir\Edit.cshtml" />
+    <Content Include="Views\InfoNacionalidad\Index.cshtml" />
+    <Content Include="Views\InfoNacionalidad\Create.cshtml" />
+    <Content Include="Views\InfoNacionalidad\Details.cshtml" />
+    <Content Include="Views\InfoNacionalidad\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

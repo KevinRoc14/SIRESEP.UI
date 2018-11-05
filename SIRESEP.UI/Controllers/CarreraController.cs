@@ -12,9 +12,13 @@ namespace SIRESEP.UI.Controllers
     public class CarreraController : Controller
     {
         ICarrera carr;
-        public CarreraController()
+        public CarreraController(ICarrera @object)
         {
             carr = new MCarrera();
+        }
+
+        public CarreraController()
+        {
         }
 
         // GET: Carrera

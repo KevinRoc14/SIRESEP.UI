@@ -1,0 +1,39 @@
+﻿@model IEnumerable<SIRESEP.UI.Models.InfoNacionalidad>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Nacionalidades</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idNacionalidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nacionalidad)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.idNacionalidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nacionalidad)
+        </td>
+        <td>
+            @Html.ActionLink("Ediart", "Edit", new { id = item.idNacionalidad }) |
+            @Html.ActionLink("Detalles", "Details", new { id = item.idNacionalidad }) |
+            @Html.ActionLink("Eliminar", "Delete", new { id = item.idNacionalidad }, new { onclick = "return confirm('Desea eliminar esta nacionalidad?');" })
+        </td>
+    </tr>
+}
+
+</table>

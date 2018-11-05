@@ -63,15 +63,27 @@
     </Compile>
     <Compile Include="Interfaces\ICarrera.cs" />
     <Compile Include="Interfaces\ICertificaciones.cs" />
+    <Compile Include="Interfaces\IEstado.cs" />
     <Compile Include="Interfaces\IInfoGenero.cs" />
     <Compile Include="Interfaces\IInfoGradoEstudio.cs" />
     <Compile Include="Interfaces\IInfoHabilidades.cs" />
+    <Compile Include="Interfaces\IInfoIdioma.cs" />
+    <Compile Include="Interfaces\IInfoInstitucion.cs" />
+    <Compile Include="Interfaces\IInfoLaboral.cs" />
+    <Compile Include="Interfaces\IInfoLicenciaConducir.cs" />
+    <Compile Include="Interfaces\IInfoNacionalidad.cs" />
     <Compile Include="Interfaces\IInfoPuesto.cs" />
     <Compile Include="Metodos\MCarrera.cs" />
     <Compile Include="Metodos\MCertificaciones.cs" />
+    <Compile Include="Metodos\MEstado.cs" />
     <Compile Include="Metodos\MInfoGenero.cs" />
     <Compile Include="Metodos\MInfoGradoEstudio.cs" />
     <Compile Include="Metodos\MInfoHabilidades.cs" />
+    <Compile Include="Metodos\MInfoIdioma.cs" />
+    <Compile Include="Metodos\MInfoInstitucion.cs" />
+    <Compile Include="Metodos\MInfoLaboral.cs" />
+    <Compile Include="Metodos\MInfoLicenciaConducir.cs" />
+    <Compile Include="Metodos\MInfoNacionalidad.cs" />
     <Compile Include="Metodos\MInfoPuesto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

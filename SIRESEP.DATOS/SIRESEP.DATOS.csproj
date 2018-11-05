@@ -46,11 +46,14 @@
   <ItemGroup>
     <Compile Include="Carrera.cs" />
     <Compile Include="Certificaciones.cs" />
+    <Compile Include="Estado.cs" />
     <Compile Include="InfoGenero.cs" />
     <Compile Include="InfoGradoEstudio.cs" />
     <Compile Include="InfoHabilidad.cs" />
+    <Compile Include="InfoIdioma.cs" />
     <Compile Include="InfoInstitucion.cs" />
     <Compile Include="InfoLaboral.cs" />
+    <Compile Include="InfoLicenciaConducir.cs" />
     <Compile Include="InfoNacionalidad.cs" />
     <Compile Include="InfoPuesto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,0 +1,65 @@
+﻿@model SIRESEP.UI.Models.Estado
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalles dek Estado</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idEstado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idEstado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuarioCrea)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuarioCrea)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaCreacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaCreacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuarioModifica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuarioModifica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaModifica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaModifica)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idEstado  }) |
+    @Html.ActionLink("Ver estado", "Index")
+</p>

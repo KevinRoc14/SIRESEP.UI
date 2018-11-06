@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SIRESEP.DATOS;
 using SIRESEP.DS.Interfaces;
-using ServiceStack.OrmLite;
 using System.Data;
 namespace SIRESEP.DS.Metodos
 {

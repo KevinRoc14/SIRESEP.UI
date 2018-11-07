@@ -3,6 +3,8 @@ using System.Linq;
 using SIRESEP.DATOS;
 using SIRESEP.DS.Interfaces;
 using System.Data;
+using ServiceStack.OrmLite;
+
 namespace SIRESEP.DS.Metodos
 {
     public class MInfoGenero : IInfoGenero

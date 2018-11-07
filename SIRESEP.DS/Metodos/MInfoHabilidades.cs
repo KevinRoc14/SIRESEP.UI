@@ -43,6 +43,7 @@ namespace SIRESEP.DS.Metodos
 
         public List<InfoHabilidad> ListarHabilidades()
         {
+
             return _db.Select<InfoHabilidad>();
         }
     }
